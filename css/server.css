@@ -1,0 +1,26 @@
+.server_tips{
+  color:#F77376;
+  font-weight: 900;
+}
+select{
+  height:40px;
+  width:120px;
+}
+.title{
+  font-size: 16px;
+}
+.grid{
+  margin-top: 20px;
+}
+.red{
+  color:#EF7676;
+}
+#commend{
+  font-family: '微軟正黑體';
+}
+#server_name{
+  margin:15px;
+  font-weight: 900;
+  font-size: 20px;
+  color:#A84040;
+}

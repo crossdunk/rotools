@@ -1,0 +1,33 @@
+body{
+  font-family:cursive,Microsoft JhengHei;
+  color:#646657;
+}
+table{
+  border-style:solid;
+  border-color: #393A32;
+}
+table th{
+  color:#212129;
+  font-size: 18px;
+}
+table td{
+  color:#185FB4;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+table th,td{
+  text-align: center;
+}
+
+.stat_{
+  font-size: 8px;
+}
+.server_tips{
+  color:#3E6777;
+  font-weight: 900;
+  line-height: 27px;
+}
+.server_tips a{
+  color:#F99795;
+}
