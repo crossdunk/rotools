@@ -103,7 +103,9 @@ require_once 'permission.php';
 <br />
 <div class="row">
   <div class='col-md-12'>
-  <span class='label label-success'>代表我方</span>  <span class='label label-danger'>代表敵方</span>
+  <span class='label label-success'>代表我方</span>  <span class='label label-danger'>代表敵方</span><br />
+  GvG<span class='label label-success' id='g_our_count'></span>：<span class='label label-danger' id='g_their_count'></span><br />
+  SE<span class='label label-success' id='s_our_count'></span>：<span class='label label-danger' id='s_their_count'></span><br />
   </div>
 </div>
 

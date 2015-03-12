@@ -12,7 +12,7 @@ require_once 'permission.php';
   <div id='commd_link'>
     <h2>一般連結</h2>
     <a target='_blank' type="button" class="btn btn-info" href='https://drive.google.com/file/d/0B73iBawLFoW9eXBoZEF5akxycmM/view?usp=sharing'>DS FT</a>
-    <a target='_blank' type="button" class="btn btn-info" href='https://drive.google.com/file/d/0By7D4bTxXJ7ZLTFiU2NDYW9GM2c/edit'>RO主程式</a>
+    <a target='_blank' type="button" class="btn btn-info" href='https://mega.co.nz/#!6wQhHRLb!Bp2t3jb-_AMQdqpNWi66NuyCjI64jERFR0BB5avHgQ0'>RO主程式</a>
     <a target='_blank' type="button" class="btn btn-info" href='https://drive.google.com/file/d/0Bx2pmY0-TnOpdUFqREE1ZGlsUGc/view'>OPENKORE(Google)</a>
     <a target='_blank' type="button" class="btn btn-info" href='https://mega.co.nz/#!ew4ijT4Z!Ztg08Afkd8r9eW8mnq_obyBLUINQNlMHYnKMe3xT5VA'>OPENKORE(Mega)</a>
   </div>
