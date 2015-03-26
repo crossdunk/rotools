@@ -86,4 +86,34 @@ $("html").keydown(function(){
 
 httprequire();
 $('#update').click(httprequire);
+
+var color_array = ['#BBF7B8','#F6F6A7','#F89A9A'];
+
+$('.alert span').bind('click',function(){
+  var td_class = $(this).attr('color');
+  var count_color = color_array.length;
+  var already_color = color_array.some(function (value, index, array) {
+    return value == td_class ? true : false;
+  });
+  if(already_color){
+    for($i=0;$i<=count_color - 1;$i++){
+      if(td_class==color_array[$i]){
+        if($i<count_color - 1){
+          $(this).css({"background-color":color_array[$i+1]});
+          $(this).attr('color',color_array[$i+1]);
+          break;
+        }else{
+          $(this).css({"background-color":"#D2EFF7"});
+          $(this).attr('color','');
+          break;
+        }
+      }
+    }
+  }else{
+    $(this).css({"background-color":color_array[0]});
+    $(this).attr('color',color_array[0]);
+  }
+});
+
+
 });

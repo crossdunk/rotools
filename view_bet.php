@@ -21,7 +21,7 @@
           </select>筆
   </div>
   <table class='table table-hover' style='width:100%;' id='table_content'>
-    <thead><tr><th>玩家</th><th>內容</th><th>轉蛋</th><th>時間</th></tr></thead>
+    <thead><tr><th data-sorter="false">玩家</th><th data-sorter="false">內容</th><th data-sorter="false">轉蛋</th><th data-sorter="false">時間</th></tr></thead>
     <tbody>
       <?php
         include "lib/dbaccount.php";

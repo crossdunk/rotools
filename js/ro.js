@@ -195,14 +195,19 @@ $(function(e) {
         var hit = Math.floor(eval(175 + dex + baseLv + (luk / 3)));
         var flee = Math.floor(eval(100 + agi + baseLv +(luk / 5)));
         var cri = Math.floor(eval(luk / 3)) + 1;
-        var castingtime = changetime * (1 - Math.sqrt(dex / 265 + int / 530)) * eqcastingtime;
-        if(castingtime < 0){
-            castingtime = '你已超過無詠標準哦！';
-        }else if(castingtime == 0){
-            castingtime = '剛剛好無變詠！';
+        if(changetime==0 || changetime ==''){
+            var castingtime = '未設定變詠時間';
         }else{
-             castingtime = Math.round(castingtime * 10000) / 10000;
+            var castingtime = changetime * (1 - Math.sqrt(dex / 265 + int / 530)) * eqcastingtime;
+            if(castingtime < 0){
+                castingtime = '你已超過無詠標準哦！';
+            }else if(castingtime == 0){
+                castingtime = '剛剛好無變詠！';
+            }else{
+                 castingtime = Math.round(castingtime * 10000) / 10000;
+            }
         }
+       
         var def1 = Math.floor((baseLv + vit) / 2 + (agi / 5));
         var mdef1 = Math.floor(int + (baseLv / 4) + (vit / 5) + (dex / 5));
         var weapatk = Number($('#weapatk').val());//武器ATK
