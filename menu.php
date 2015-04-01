@@ -52,7 +52,7 @@
     <a href='/rotools/castle/' class='menu_btn'>GVG紀錄</a>
     <a href='/rotools/server/' class='menu_btn'>伺服器統計</a>
     <a href='/rotools/download/' class='menu_btn'>下載/影片</a>
-    <a href='https://forum.fharr.com/forum.php' class='menu_btn'>幻想廳</a>
+    <a href='http://game.fharr.com/forum.php' class='menu_btn'>幻想廳</a>
   </div>
 </div>
 
